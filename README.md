@@ -22,6 +22,7 @@ Experimental development shall be done within a seperate branch to prevent the m
 <li>MU - module units (TE Teilungseinheiten); indicates how much space a DIN rail device needs 
 <li>*lpc922* - module or controller with lpc922 µC
 <li>*lpc1115* - module or controller with lpc1115 µC
+<li>TOP / MID / BOT - position where in a DIN rail enclosure a PCB will be mounted
 </ul>
 
 <h2>Releases</h2>
