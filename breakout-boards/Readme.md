@@ -1,1 +1,1 @@
-Projekte mit dem KNX TP1-256 Frontend STKNX der Firma STMicroelectronics.
+PCBs, die eine wiederverwendbare Teilfunktionalität kapseln und mit anderen PCBs kombiniert werden können (müssen).
