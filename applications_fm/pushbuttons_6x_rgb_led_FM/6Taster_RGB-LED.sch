@@ -7372,7 +7372,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="D2" library="IR_LED_Photodiode_KNX_Taster" deviceset="BPW34FAS" device=""/>
 <part name="D1" library="IR_LED_Photodiode_KNX_Taster" deviceset="SFH4640" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="2k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="1n"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -7393,7 +7393,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="349.25" y="184.15" size="1.778" layer="97">von vorn</text>
 <text x="292.1" y="180.34" size="1.778" layer="91">Vorwiderstand von 100 ist auf GNAX Board enthalten</text>
 <text x="154.94" y="83.82" size="1.778" layer="91">1.25k volle Helligkeit</text>
-<text x="154.94" y="81.28" size="1.778" layer="91">2k für GNAX Schaltregler</text>
+<text x="154.94" y="81.28" size="1.778" layer="91">10k für GNAX Schaltregler</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="86.36" y="142.24"/>
