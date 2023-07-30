@@ -23807,7 +23807,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <text x="317.5" y="33.02" size="3.81" layer="97">Rauchmelder Interface</text>
 <text x="317.5" y="27.94" size="2.54" layer="97">www.selfbus.org</text>
 <text x="320.04" y="10.16" size="2.54" layer="97">Rauchmelder ARM</text>
-<text x="403.86" y="10.16" size="2.54" layer="97">3.8.4</text>
+<text x="403.86" y="10.16" size="2.54" layer="97">3.9.0</text>
 <text x="193.04" y="165.1" size="1.778" layer="91">6 to RXD and P00</text>
 <text x="193.04" y="162.56" size="1.778" layer="91">7 to TXD and P01</text>
 <text x="193.04" y="160.02" size="1.778" layer="91">9 to P02</text>
