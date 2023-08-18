@@ -23775,7 +23775,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="L1" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="4.7uH"/>
 <part name="C100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF 50V"/>
 <part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF 10V"/>
-<part name="C102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="15nF"/>
+<part name="C102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="15nF"/>
 <part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6"/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
 <part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470nF"/>
@@ -24114,7 +24114,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="NAME" x="136.144" y="218.059" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="136.144" y="215.519" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C102" gate="G$1" x="99.06" y="218.44" smashed="yes" rot="R180">
+<instance part="C102" gate="G$1" x="99.06" y="218.44" smashed="yes" rot="R270">
 <attribute name="NAME" x="95.504" y="213.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="95.504" y="211.201" size="1.778" layer="96"/>
 </instance>
@@ -25005,14 +25005,14 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <net name="LX" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="91.44" y1="223.52" x2="104.14" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="223.52" x2="101.6" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="C102" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="223.52" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="218.44" x2="104.14" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="218.44" x2="101.6" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="215.9" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
-<junction x="104.14" y="223.52"/>
+<junction x="101.6" y="223.52"/>
 <junction x="109.22" y="223.52"/>
 <pinref part="D100" gate="G$1" pin="C"/>
 <label x="96.52" y="223.52" size="1.778" layer="95"/>
