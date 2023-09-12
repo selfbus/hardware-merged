@@ -23739,7 +23739,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="Q3" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="FZT753SMD" device="" package3d_urn="urn:adsk.eagle:package:29214/2" value="BCP52"/>
 <part name="Q1" library="transistor-pnp" deviceset="BC856*" device="SMD" technology="ALT1" value="BC856"/>
 <part name="T1" library="transistor" deviceset="BC847C" device=""/>
-<part name="D10" library="microbuilder" deviceset="DIODE" device="SOD-123" value="7,5V"/>
+<part name="D10" library="microbuilder" deviceset="DIODE" device="SOD-123" value="7V5"/>
 <part name="D6" library="microbuilder" deviceset="DIODE" device="SOD-123" value="12V"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="SANYO_SMD_C6" package3d_urn="urn:adsk.eagle:package:23465/1" value="100uF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
@@ -23756,7 +23756,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="Q4" library="crystal" deviceset="ASF*" device="" technology="L"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="43k"/>
-<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="6,2k"/>
+<part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="6k2"/>
 <part name="D7" library="microbuilder" deviceset="DIODE" device="SOD-123" value="DDZ9685">
 <attribute name="ALTERNATIVE" value="MMSZ4684T1G"/>
 </part>
@@ -23771,15 +23771,15 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="C104" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="P+2" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC1" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6" value="BD9G101"/>
-<part name="L1" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="4.7uH"/>
+<part name="IC100" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6" value="BD9G101"/>
+<part name="L100" library="rcl_changed" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="4.7uH"/>
 <part name="C100" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF 50V"/>
 <part name="C103" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF 10V"/>
 <part name="C102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="15nF"/>
 <part name="R101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6"/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
+<part name="R102" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
 <part name="C101" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470nF"/>
-<part name="D100" library="microbuilder" deviceset="DIODE" device="SOD-123" value="MBRS1100"/>
+<part name="D100" library="microbuilder" deviceset="DIODE" device="SOD-123" value="RB060M-60"/>
 <part name="FD1" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
 <part name="FD2" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
 <part name="FD3" library="Fiducial" deviceset="FID" device="_40MIL" value="FID_40MIL"/>
@@ -23946,7 +23946,8 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="VALUE" x="218.44" y="124.46" size="1.778" layer="96"/>
 </instance>
 <instance part="R16" gate="G$1" x="93.98" y="134.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="90.17" y="131.0386" size="1.778" layer="95"/>
+<attribute name="NAME" x="97.79" y="133.1214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="97.79" y="137.922" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C9" gate="G$1" x="106.68" y="132.08" smashed="yes">
 <attribute name="NAME" x="109.093" y="131.8006" size="1.778" layer="95"/>
@@ -24098,11 +24099,11 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <instance part="P+2" gate="G$1" x="165.1" y="233.68" smashed="yes">
 <attribute name="VALUE" x="161.544" y="234.696" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="G$1" x="81.28" y="218.44" smashed="yes">
+<instance part="IC100" gate="G$1" x="81.28" y="218.44" smashed="yes">
 <attribute name="NAME" x="73.66" y="207.01" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.2" y="228.6" size="1.778" layer="96"/>
 </instance>
-<instance part="L1" gate="G$1" x="119.38" y="223.52" smashed="yes" rot="R90">
+<instance part="L100" gate="G$1" x="119.38" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.078" y="228.346" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.951" y="225.552" size="1.778" layer="96"/>
 </instance>
@@ -24122,7 +24123,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <attribute name="NAME" x="54.864" y="210.7946" size="1.778" layer="95"/>
 <attribute name="VALUE" x="54.864" y="208.534" size="1.778" layer="96"/>
 </instance>
-<instance part="R20" gate="G$1" x="60.96" y="195.58" smashed="yes" rot="R90">
+<instance part="R102" gate="G$1" x="60.96" y="195.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="52.832" y="195.5546" size="1.778" layer="95"/>
 <attribute name="VALUE" x="52.832" y="193.294" size="1.778" layer="96"/>
 </instance>
@@ -24331,10 +24332,10 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="IC100" gate="G$1" pin="GND"/>
 <wire x1="83.82" y1="185.42" x2="83.82" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="187.96" x2="83.82" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R102" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="187.96" x2="60.96" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="187.96" x2="83.82" y2="187.96" width="0.1524" layer="91"/>
 <junction x="83.82" y="187.96"/>
@@ -24939,7 +24940,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <label x="57.658" y="105.156" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN"/>
+<pinref part="IC100" gate="G$1" pin="IN"/>
 <wire x1="66.04" y1="223.52" x2="71.12" y2="223.52" width="0.1524" layer="91"/>
 <junction x="66.04" y="223.52"/>
 <wire x1="25.4" y1="223.52" x2="33.02" y2="223.52" width="0.1524" layer="91"/>
@@ -24950,7 +24951,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <label x="25.4" y="223.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 <label x="55.88" y="223.52" size="1.778" layer="95"/>
 <wire x1="66.04" y1="223.52" x2="66.04" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="EN"/>
+<pinref part="IC100" gate="G$1" pin="EN"/>
 <wire x1="66.04" y1="218.44" x2="71.12" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25004,13 +25005,13 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </net>
 <net name="LX" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
+<pinref part="IC100" gate="G$1" pin="OUT"/>
 <wire x1="91.44" y1="223.52" x2="101.6" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="C102" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="223.52" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="223.52" x2="114.3" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="218.44" x2="101.6" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="L100" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="215.9" x2="109.22" y2="223.52" width="0.1524" layer="91"/>
 <junction x="101.6" y="223.52"/>
 <junction x="109.22" y="223.52"/>
@@ -25021,18 +25022,18 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <net name="BST" class="0">
 <segment>
 <pinref part="C102" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="G$1" pin="BST"/>
+<pinref part="IC100" gate="G$1" pin="BST"/>
 <wire x1="93.98" y1="218.44" x2="91.44" y2="218.44" width="0.1524" layer="91"/>
 <label x="91.44" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FB1" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="ADJ"/>
+<pinref part="IC100" gate="G$1" pin="ADJ"/>
 <wire x1="71.12" y1="213.36" x2="66.04" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="C101" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="208.28" x2="50.8" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R102" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="203.2" x2="60.96" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="R101" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="203.2" x2="66.04" y2="203.2" width="0.1524" layer="91"/>
@@ -25063,7 +25064,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <junction x="165.1" y="223.52"/>
 <pinref part="C103" gate="G$1" pin="1"/>
 <wire x1="134.62" y1="223.52" x2="134.62" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="L100" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="223.52" x2="124.46" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="C105" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="215.9" x2="149.86" y2="223.52" width="0.1524" layer="91"/>

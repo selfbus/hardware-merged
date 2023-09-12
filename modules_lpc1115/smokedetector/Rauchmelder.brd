@@ -174,10 +174,10 @@ v3.9.0 RC1</text>
 <hole x="35.6" y="52" drill="3"/>
 <text x="4.1512" y="59.403575" size="1" layer="21" ratio="10">+</text>
 <text x="10.2012" y="59.495575" size="1.016" layer="21" ratio="10">-</text>
-<text x="37.0012" y="31.370575" size="1" layer="21" ratio="10">+</text>
-<text x="37.0012" y="29.620575" size="1" layer="21" ratio="10">+</text>
-<text x="32.1512" y="31.420575" size="1.016" layer="21" ratio="10">-</text>
-<text x="32.3012" y="29.670575" size="1.016" layer="21" ratio="10">-</text>
+<text x="37.0012" y="31.770575" size="1" layer="21" ratio="10">+</text>
+<text x="37.0012" y="30.020575" size="1" layer="21" ratio="10">+</text>
+<text x="32.2012" y="31.720575" size="1.016" layer="21" ratio="10">-</text>
+<text x="32.1512" y="30.070575" size="1.016" layer="21" ratio="10">-</text>
 <text x="13.404375" y="10.7619" size="0.8128" layer="21" ratio="7">RM-ARM
 v3.9.0 RC1</text>
 </plain>
@@ -3311,11 +3311,18 @@ Everything else you will find on https://aisler.net/help</description>
 <contactref element="C101" pad="1"/>
 <contactref element="R20" pad="2"/>
 <contactref element="R101" pad="1"/>
-<wire x1="8.469" y1="8.17" x2="9.427" y2="7.212" width="0.4064" layer="1"/>
-<wire x1="9.427" y1="7.212" x2="9.427" y2="6.28" width="0.4064" layer="1"/>
-<wire x1="8.396" y1="4.1274125" x2="10.45" y2="4.1274125" width="0.4064" layer="1"/>
-<wire x1="10.45" y1="4.1274125" x2="9.427" y2="5.1504125" width="0.4064" layer="1"/>
-<wire x1="9.427" y1="5.1504125" x2="9.427" y2="6.28" width="0.4064" layer="1"/>
+<wire x1="9.427" y1="6.812" x2="8.469" y2="7.77" width="0.4064" layer="1"/>
+<wire x1="8.469" y1="8.17" x2="8.469" y2="7.77" width="0.4064" layer="1"/>
+<wire x1="9.427" y1="6.812" x2="9.427" y2="6.28" width="0.4064" layer="1"/>
+<wire x1="10.35" y1="4.2274125" x2="8.496" y2="4.2274125" width="1.016" layer="1"/>
+<wire x1="8.396" y1="4.1274125" x2="8.496" y2="4.2274125" width="1.016" layer="1"/>
+<wire x1="10.35" y1="4.2274125" x2="10.45" y2="4.1274125" width="1.016" layer="1"/>
+<wire x1="10.45" y1="4.1274125" x2="10.3" y2="4.1274125" width="0.4064" layer="1"/>
+<wire x1="10.3" y1="4.1274125" x2="9.427" y2="5.0004125" width="0.4064" layer="1"/>
+<wire x1="9.427" y1="5.0004125" x2="9.427" y2="6.28" width="0.4064" layer="1"/>
+<wire x1="9.427" y1="6.28" x2="9.427" y2="5.0084125" width="0.4064" layer="1"/>
+<wire x1="9.427" y1="5.0084125" x2="8.546" y2="4.1274125" width="0.4064" layer="1"/>
+<wire x1="8.546" y1="4.1274125" x2="8.396" y2="4.1274125" width="0.4064" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="C101" pad="2"/>
