@@ -5,4 +5,5 @@ This module is a well tested interface to get your Dual Q smoke detectors connec
 The unversioned Rauchmelder.sch and Rauchmelder.brd files are the development files. 
 Once a new version is released, a corresponding copy of the files with the release version appended to the file name are provided. 
 
-Project documentation: https://selfbus.org/wiki/devices/sensors/6-smoke-detector-module
+Project documentation: https://selfbus.org/wiki/devices/sensors/6-smoke-detector-module </br>
+Forum discussions: https://selfbus.org/forum/app.php/tag/Rauchmelder
