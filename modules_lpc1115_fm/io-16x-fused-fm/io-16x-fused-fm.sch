@@ -15834,7 +15834,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="TP_SIGNAL_NAME" x="107.95" y="35.56" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="JP2" gate="A" x="414.02" y="292.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="420.37" y="283.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="425.45" y="286.385" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="420.37" y="302.26" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
