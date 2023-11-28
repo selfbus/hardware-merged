@@ -210,7 +210,7 @@ v3.9.1</text>
 <vertex x="36.4" y="21.95"/>
 <vertex x="33.2" y="21.95"/>
 </polygon>
-<circle x="37.1" y="16.75" radius="0.4" width="0" layer="21"/>
+<circle x="37.25" y="17.1" radius="0.4" width="0" layer="21"/>
 <text x="4.2512" y="0.420575" size="1.016" layer="21" ratio="10">-</text>
 <circle x="6.4" y="8.85" radius="0.111803125" width="0.1524" layer="51"/>
 <hole x="26.85" y="61.25" drill="3"/>
@@ -250,6 +250,8 @@ v3.9.0</text>
 <vertex x="4.35" y="17.3"/>
 <vertex x="0.95" y="17.3"/>
 </polygon>
+<circle x="21.4" y="1.2" radius="0.4" width="0" layer="21"/>
+<circle x="5.85" y="7.3" radius="0.25" width="0" layer="21"/>
 </plain>
 <libraries>
 <library name="transistor-pnp">
