@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -61,9 +62,36 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Mittellin" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="Stiffner" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tBridges" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="tBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="bBPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="MPL" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="sName" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="218" name="218bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="219" name="219bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -72,8 +100,11 @@
 <layer number="222" name="222bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="223" name="223bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="224" name="224bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
 <description>Developed by Grauwert</description>
@@ -478,7 +509,124 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="LQFP48" urn="urn:adsk.eagle:footprint:40015431/1">
+<wire x1="-3" y1="-3.3" x2="3" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="-3" x2="3.3" y2="3" width="0.2032" layer="21"/>
+<wire x1="3" y1="3.3" x2="-3" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3" y1="3.3" x2="-3.3" y2="3" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="3" x2="-3.3" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-3" x2="-3" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="3" y1="-3.3" x2="3.3" y2="-3" width="0.2032" layer="21"/>
+<wire x1="3.3" y1="3" x2="3" y2="3.3" width="0.2032" layer="21"/>
+<circle x="-4.3" y="3.704" radius="0.15" width="0.4064" layer="21"/>
+<circle x="-2.4" y="2.35" radius="0.2" width="0.4" layer="21"/>
+<smd name="1" x="-4.3" y="2.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="2" x="-4.3" y="2.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="3" x="-4.3" y="1.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="4" x="-4.3" y="1.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="5" x="-4.3" y="0.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="6" x="-4.3" y="0.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="7" x="-4.3" y="-0.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="8" x="-4.3" y="-0.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="9" x="-4.3" y="-1.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="10" x="-4.3" y="-1.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="11" x="-4.3" y="-2.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="12" x="-4.3" y="-2.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="13" x="-2.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="14" x="-2.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="15" x="-1.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="16" x="-1.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="17" x="-0.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="18" x="-0.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="19" x="0.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="20" x="0.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="21" x="1.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="22" x="1.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="23" x="2.25" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="24" x="2.75" y="-4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="25" x="4.3" y="-2.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="26" x="4.3" y="-2.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="27" x="4.3" y="-1.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="28" x="4.3" y="-1.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="29" x="4.3" y="-0.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="30" x="4.3" y="-0.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="31" x="4.3" y="0.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="32" x="4.3" y="0.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="33" x="4.3" y="1.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="34" x="4.3" y="1.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="35" x="4.3" y="2.25" dx="1.5" dy="0.25" layer="1"/>
+<smd name="36" x="4.3" y="2.75" dx="1.5" dy="0.25" layer="1"/>
+<smd name="37" x="2.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="38" x="2.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="39" x="1.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="40" x="1.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="41" x="0.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="42" x="0.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="43" x="-0.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="44" x="-0.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="45" x="-1.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="46" x="-1.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="47" x="-2.25" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<smd name="48" x="-2.75" y="4.3" dx="0.25" dy="1.5" layer="1"/>
+<text x="-2.974" y="5.3001" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.9261" y="-5.9379" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.4999" y1="2.5999" x2="-3.4501" y2="2.9001" layer="51"/>
+<rectangle x1="-4.4999" y1="2.0999" x2="-3.4501" y2="2.4001" layer="51"/>
+<rectangle x1="-4.4999" y1="1.5999" x2="-3.4501" y2="1.9001" layer="51"/>
+<rectangle x1="-4.4999" y1="1.0999" x2="-3.4501" y2="1.4001" layer="51"/>
+<rectangle x1="-4.4999" y1="0.5999" x2="-3.4501" y2="0.9001" layer="51"/>
+<rectangle x1="-4.4999" y1="0.0999" x2="-3.4501" y2="0.4001" layer="51"/>
+<rectangle x1="-4.4999" y1="-0.4001" x2="-3.4501" y2="-0.0999" layer="51"/>
+<rectangle x1="-4.4999" y1="-0.9001" x2="-3.4501" y2="-0.5999" layer="51"/>
+<rectangle x1="-4.4999" y1="-1.4001" x2="-3.4501" y2="-1.0999" layer="51"/>
+<rectangle x1="-4.4999" y1="-1.9001" x2="-3.4501" y2="-1.5999" layer="51"/>
+<rectangle x1="-4.4999" y1="-2.4001" x2="-3.4501" y2="-2.0999" layer="51"/>
+<rectangle x1="-4.4999" y1="-2.9001" x2="-3.4501" y2="-2.5999" layer="51"/>
+<rectangle x1="-2.9001" y1="-4.4999" x2="-2.5999" y2="-3.4501" layer="51"/>
+<rectangle x1="-2.4001" y1="-4.4999" x2="-2.0999" y2="-3.4501" layer="51"/>
+<rectangle x1="-1.9001" y1="-4.4999" x2="-1.5999" y2="-3.4501" layer="51"/>
+<rectangle x1="-1.4001" y1="-4.4999" x2="-1.0999" y2="-3.4501" layer="51"/>
+<rectangle x1="-0.9001" y1="-4.4999" x2="-0.5999" y2="-3.4501" layer="51"/>
+<rectangle x1="-0.4001" y1="-4.4999" x2="-0.0999" y2="-3.4501" layer="51"/>
+<rectangle x1="0.0999" y1="-4.4999" x2="0.4001" y2="-3.4501" layer="51"/>
+<rectangle x1="0.5999" y1="-4.4999" x2="0.9001" y2="-3.4501" layer="51"/>
+<rectangle x1="1.0999" y1="-4.4999" x2="1.4001" y2="-3.4501" layer="51"/>
+<rectangle x1="1.5999" y1="-4.4999" x2="1.9001" y2="-3.4501" layer="51"/>
+<rectangle x1="2.0999" y1="-4.4999" x2="2.4001" y2="-3.4501" layer="51"/>
+<rectangle x1="2.5999" y1="-4.4999" x2="2.9001" y2="-3.4501" layer="51"/>
+<rectangle x1="3.4501" y1="-2.9001" x2="4.4999" y2="-2.5999" layer="51"/>
+<rectangle x1="3.4501" y1="-2.4001" x2="4.4999" y2="-2.0999" layer="51"/>
+<rectangle x1="3.4501" y1="-1.9001" x2="4.4999" y2="-1.5999" layer="51"/>
+<rectangle x1="3.4501" y1="-1.4001" x2="4.4999" y2="-1.0999" layer="51"/>
+<rectangle x1="3.4501" y1="-0.9001" x2="4.4999" y2="-0.5999" layer="51"/>
+<rectangle x1="3.4501" y1="-0.4001" x2="4.4999" y2="-0.0999" layer="51"/>
+<rectangle x1="3.4501" y1="0.0999" x2="4.4999" y2="0.4001" layer="51"/>
+<rectangle x1="3.4501" y1="0.5999" x2="4.4999" y2="0.9001" layer="51"/>
+<rectangle x1="3.4501" y1="1.0999" x2="4.4999" y2="1.4001" layer="51"/>
+<rectangle x1="3.4501" y1="1.5999" x2="4.4999" y2="1.9001" layer="51"/>
+<rectangle x1="3.4501" y1="2.0999" x2="4.4999" y2="2.4001" layer="51"/>
+<rectangle x1="3.4501" y1="2.5999" x2="4.4999" y2="2.9001" layer="51"/>
+<rectangle x1="2.5999" y1="3.4501" x2="2.9001" y2="4.4999" layer="51"/>
+<rectangle x1="2.0999" y1="3.4501" x2="2.4001" y2="4.4999" layer="51"/>
+<rectangle x1="1.5999" y1="3.4501" x2="1.9001" y2="4.4999" layer="51"/>
+<rectangle x1="1.0999" y1="3.4501" x2="1.4001" y2="4.4999" layer="51"/>
+<rectangle x1="0.5999" y1="3.4501" x2="0.9001" y2="4.4999" layer="51"/>
+<rectangle x1="0.0999" y1="3.4501" x2="0.4001" y2="4.4999" layer="51"/>
+<rectangle x1="-0.4001" y1="3.4501" x2="-0.0999" y2="4.4999" layer="51"/>
+<rectangle x1="-0.9001" y1="3.4501" x2="-0.5999" y2="4.4999" layer="51"/>
+<rectangle x1="-1.4001" y1="3.4501" x2="-1.0999" y2="4.4999" layer="51"/>
+<rectangle x1="-1.9001" y1="3.4501" x2="-1.5999" y2="4.4999" layer="51"/>
+<rectangle x1="-2.4001" y1="3.4501" x2="-2.0999" y2="4.4999" layer="51"/>
+<rectangle x1="-2.9001" y1="3.4501" x2="-2.5999" y2="4.4999" layer="51"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="LQFP48" urn="urn:adsk.eagle:package:40015430/2" type="model">
+<packageinstances>
+<packageinstance name="LQFP48"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="MC34063A">
 <pin name="VCC" x="-15.24" y="-2.54" length="middle" direction="pwr"/>
@@ -628,6 +776,74 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <text x="-10.16" y="6.35" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 <wire x1="0" y1="6.35" x2="0" y2="-8.89" width="0.254" layer="94" style="dashdot"/>
+</symbol>
+<symbol name="LPC1113/4/5_FBD48/XL">
+<wire x1="-40.64" y1="-48.26" x2="-40.64" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="-40.64" x2="-40.64" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="35.56" x2="-40.64" y2="43.18" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="43.18" x2="38.1" y2="43.18" width="0.254" layer="94"/>
+<wire x1="38.1" y1="43.18" x2="38.1" y2="35.56" width="0.254" layer="94"/>
+<wire x1="38.1" y1="35.56" x2="38.1" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-40.64" x2="38.1" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-48.26" x2="-40.64" y2="-48.26" width="0.254" layer="94"/>
+<text x="-40.64" y="46.736" size="1.27" layer="95">&gt;NAME</text>
+<text x="-40.64" y="-50.8" size="1.27" layer="95">&gt;VALUE</text>
+<pin name="XTALIN" x="-45.72" y="-35.56" length="middle" direction="in"/>
+<pin name="XTALOUT" x="-45.72" y="-38.1" length="middle" direction="out"/>
+<pin name="VDD@2" x="43.18" y="-25.4" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSS(IO)" x="43.18" y="-38.1" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSS" x="43.18" y="-33.02" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD@1" x="43.18" y="-22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="RESET/PIO0_0" x="-45.72" y="33.02" length="middle"/>
+<pin name="SWCLK/PIO0_10/SCK0/CT16B0_MAT2" x="-45.72" y="7.62" length="middle"/>
+<pin name="TDI/PIO0_11/AD0/CT32B0_MAT3" x="-45.72" y="5.08" length="middle"/>
+<pin name="TMS/PIO1_0/AD1/CT32B1_CAP0" x="-45.72" y="-2.54" length="middle"/>
+<pin name="TDO/PIO1_1/AD2/CT32B1_MAT0" x="-45.72" y="-5.08" length="middle"/>
+<pin name="TRST/PIO1_2/AD3/CT32B1_MAT1" x="-45.72" y="-7.62" length="middle"/>
+<pin name="SWDIO/PIO1_3/AD4/CT32B1_MAT2" x="-45.72" y="-10.16" length="middle"/>
+<pin name="PIO0_1/CLKOUT/CT32B0_MAT2" x="-45.72" y="30.48" length="middle"/>
+<pin name="PIO0_2/SSEL0/CT16B0_CAP0" x="-45.72" y="27.94" length="middle"/>
+<pin name="PIO0_4/SCL" x="-45.72" y="22.86" length="middle"/>
+<pin name="PIO0_5/SDA" x="-45.72" y="20.32" length="middle"/>
+<pin name="PIO0_6/SCK0" x="-45.72" y="17.78" length="middle"/>
+<pin name="PIO0_7/CTS" x="-45.72" y="15.24" length="middle"/>
+<pin name="PIO0_8/MISO0/CT16B0_MAT0" x="-45.72" y="12.7" length="middle"/>
+<pin name="PIO0_9/MOSI0/CT16B0_MAT1" x="-45.72" y="10.16" length="middle"/>
+<pin name="PIO0_3" x="-45.72" y="25.4" length="middle"/>
+<pin name="PIO1_8/CT16B1_CAP0" x="-45.72" y="-22.86" length="middle"/>
+<pin name="PIO1_9/CT16B1_MAT0/MOSI1" x="-45.72" y="-25.4" length="middle"/>
+<pin name="PIO1_10/AD6/CT16B1_MAT1/MISO1" x="-45.72" y="-27.94" length="middle"/>
+<pin name="PIO1_4/AD5/CT32B1_MAT3/WAKEUP" x="-45.72" y="-12.7" length="middle"/>
+<pin name="PIO1_11/AD7/CT32B1_CAP1" x="-45.72" y="-30.48" length="middle"/>
+<pin name="PIO1_5/RTS/CT32B0_CAP0" x="-45.72" y="-15.24" length="middle"/>
+<pin name="PIO1_6/RXD/CT32B0_MAT0" x="-45.72" y="-17.78" length="middle"/>
+<pin name="PIO1_7/TXD/CT32B0_MAT1" x="-45.72" y="-20.32" length="middle"/>
+<pin name="PIO2_0/DTR/SSEL1" x="43.18" y="33.02" length="middle" rot="R180"/>
+<pin name="PIO2_1/DSR/SCK1" x="43.18" y="30.48" length="middle" rot="R180"/>
+<pin name="PIO2_2/DCD/MISO1" x="43.18" y="27.94" length="middle" rot="R180"/>
+<pin name="PIO2_3/RI/MOSI1" x="43.18" y="25.4" length="middle" rot="R180"/>
+<pin name="PIO2_4/CT16B1_MAT1/SSEL1" x="43.18" y="22.86" length="middle" rot="R180"/>
+<pin name="PIO2_5/CT32B0_MAT0" x="43.18" y="20.32" length="middle" rot="R180"/>
+<pin name="PIO2_6/CT32B0_MAT1" x="43.18" y="17.78" length="middle" rot="R180"/>
+<pin name="PIO2_7/CT32B0_MAT2/RXD" x="43.18" y="15.24" length="middle" rot="R180"/>
+<pin name="PIO2_8/CT32B0_MAT3/TXD" x="43.18" y="12.7" length="middle" rot="R180"/>
+<pin name="PIO2_9/CT32B0_CAP0" x="43.18" y="10.16" length="middle" rot="R180"/>
+<pin name="PIO2_10" x="43.18" y="7.62" length="middle" rot="R180"/>
+<pin name="PIO2_11/SCK0/CT32B0_CAP1" x="43.18" y="5.08" length="middle" rot="R180"/>
+<pin name="PIO3_0/DTR/CT16B0_MAT0/TXD" x="43.18" y="-2.54" length="middle" rot="R180"/>
+<pin name="PIO3_1/DSR/CT16B0_MAT1/RXD" x="43.18" y="-5.08" length="middle" rot="R180"/>
+<pin name="PIO3_2/DCD/CT16B0_MAT2/SCK1" x="43.18" y="-7.62" length="middle" rot="R180"/>
+<pin name="PIO3_3/RI/CT16B0_CAP0" x="43.18" y="-10.16" length="middle" rot="R180"/>
+<pin name="PIO3_4/CT16B0_CAP1/RXD" x="43.18" y="-12.7" length="middle" rot="R180"/>
+<pin name="PIO3_5/CT16B1_CAP1/TXD" x="43.18" y="-15.24" length="middle" rot="R180"/>
+<wire x1="-40.64" y1="35.56" x2="38.1" y2="35.56" width="0.254" layer="94" style="shortdash"/>
+<text x="-20.32" y="40.64" size="1.778" layer="94">LPC1100XL Series MCU (QFP48)</text>
+<text x="-10.16" y="38.1" size="1.778" layer="94">ARM Cortex M0</text>
+<wire x1="38.1" y1="-40.64" x2="-40.64" y2="-40.64" width="0.254" layer="94" style="shortdash"/>
+<text x="-38.1" y="-43.18" size="1.778" layer="94">VDD:</text>
+<text x="-25.4" y="-43.18" size="1.778" layer="94">1.8-3.6V (Some restrictions below 2.0V)</text>
+<text x="-38.1" y="-45.72" size="1.778" layer="94">Temp:</text>
+<text x="-25.4" y="-45.72" size="1.778" layer="94">-40-85°C</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -854,7 +1070,94 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="LPC1113/4/5_QFP48_XLSERIES" prefix="U" uservalue="yes">
+<description>&lt;b&gt;LPC1113/4/5 ARM Cortex M0 MCU (50MHz)&lt;/b&gt; - XL Series (FBD48/3x3)
+&lt;p&gt;
+LPC1115FBD48/303:
+&lt;ul&gt;
+&lt;li&gt;Max Frequency: 50MHz&lt;/li&gt;
+&lt;li&gt;Flash: 64kB&lt;/li&gt;
+&lt;li&gt;SRAM: 8kB&lt;/li&gt;
+&lt;li&gt;ADC: 10-bit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LPC1113/4/5_FBD48/XL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LQFP48">
+<connects>
+<connect gate="G$1" pin="PIO0_1/CLKOUT/CT32B0_MAT2" pad="4"/>
+<connect gate="G$1" pin="PIO0_2/SSEL0/CT16B0_CAP0" pad="10"/>
+<connect gate="G$1" pin="PIO0_3" pad="14"/>
+<connect gate="G$1" pin="PIO0_4/SCL" pad="15"/>
+<connect gate="G$1" pin="PIO0_5/SDA" pad="16"/>
+<connect gate="G$1" pin="PIO0_6/SCK0" pad="22"/>
+<connect gate="G$1" pin="PIO0_7/CTS" pad="23"/>
+<connect gate="G$1" pin="PIO0_8/MISO0/CT16B0_MAT0" pad="27"/>
+<connect gate="G$1" pin="PIO0_9/MOSI0/CT16B0_MAT1" pad="28"/>
+<connect gate="G$1" pin="PIO1_10/AD6/CT16B1_MAT1/MISO1" pad="30"/>
+<connect gate="G$1" pin="PIO1_11/AD7/CT32B1_CAP1" pad="42"/>
+<connect gate="G$1" pin="PIO1_4/AD5/CT32B1_MAT3/WAKEUP" pad="40"/>
+<connect gate="G$1" pin="PIO1_5/RTS/CT32B0_CAP0" pad="45"/>
+<connect gate="G$1" pin="PIO1_6/RXD/CT32B0_MAT0" pad="46"/>
+<connect gate="G$1" pin="PIO1_7/TXD/CT32B0_MAT1" pad="47"/>
+<connect gate="G$1" pin="PIO1_8/CT16B1_CAP0" pad="9"/>
+<connect gate="G$1" pin="PIO1_9/CT16B1_MAT0/MOSI1" pad="17"/>
+<connect gate="G$1" pin="PIO2_0/DTR/SSEL1" pad="2"/>
+<connect gate="G$1" pin="PIO2_1/DSR/SCK1" pad="13"/>
+<connect gate="G$1" pin="PIO2_10" pad="25"/>
+<connect gate="G$1" pin="PIO2_11/SCK0/CT32B0_CAP1" pad="31"/>
+<connect gate="G$1" pin="PIO2_2/DCD/MISO1" pad="26"/>
+<connect gate="G$1" pin="PIO2_3/RI/MOSI1" pad="38"/>
+<connect gate="G$1" pin="PIO2_4/CT16B1_MAT1/SSEL1" pad="19"/>
+<connect gate="G$1" pin="PIO2_5/CT32B0_MAT0" pad="20"/>
+<connect gate="G$1" pin="PIO2_6/CT32B0_MAT1" pad="1"/>
+<connect gate="G$1" pin="PIO2_7/CT32B0_MAT2/RXD" pad="11"/>
+<connect gate="G$1" pin="PIO2_8/CT32B0_MAT3/TXD" pad="12"/>
+<connect gate="G$1" pin="PIO2_9/CT32B0_CAP0" pad="24"/>
+<connect gate="G$1" pin="PIO3_0/DTR/CT16B0_MAT0/TXD" pad="36"/>
+<connect gate="G$1" pin="PIO3_1/DSR/CT16B0_MAT1/RXD" pad="37"/>
+<connect gate="G$1" pin="PIO3_2/DCD/CT16B0_MAT2/SCK1" pad="43"/>
+<connect gate="G$1" pin="PIO3_3/RI/CT16B0_CAP0" pad="48"/>
+<connect gate="G$1" pin="PIO3_4/CT16B0_CAP1/RXD" pad="18"/>
+<connect gate="G$1" pin="PIO3_5/CT16B1_CAP1/TXD" pad="21"/>
+<connect gate="G$1" pin="RESET/PIO0_0" pad="3"/>
+<connect gate="G$1" pin="SWCLK/PIO0_10/SCK0/CT16B0_MAT2" pad="29"/>
+<connect gate="G$1" pin="SWDIO/PIO1_3/AD4/CT32B1_MAT2" pad="39"/>
+<connect gate="G$1" pin="TDI/PIO0_11/AD0/CT32B0_MAT3" pad="32"/>
+<connect gate="G$1" pin="TDO/PIO1_1/AD2/CT32B1_MAT0" pad="34"/>
+<connect gate="G$1" pin="TMS/PIO1_0/AD1/CT32B1_CAP0" pad="33"/>
+<connect gate="G$1" pin="TRST/PIO1_2/AD3/CT32B1_MAT1" pad="35"/>
+<connect gate="G$1" pin="VDD@1" pad="8"/>
+<connect gate="G$1" pin="VDD@2" pad="44"/>
+<connect gate="G$1" pin="VSS" pad="5"/>
+<connect gate="G$1" pin="VSS(IO)" pad="41"/>
+<connect gate="G$1" pin="XTALIN" pad="6"/>
+<connect gate="G$1" pin="XTALOUT" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40015430/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
