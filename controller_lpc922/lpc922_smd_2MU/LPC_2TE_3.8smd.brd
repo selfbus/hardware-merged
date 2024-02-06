@@ -1044,9 +1044,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="17.6213" y="33.3376" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="23.9713" y="33.3376" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IC3" library="v-reg" package="79LXX" value="" x="4.1275" y="4.1275" smashed="yes">
+<element name="IC3" library="v-reg" package="79LXX" value="MCP1702-3302" x="4.1275" y="4.1275" smashed="yes">
 <attribute name="NAME" x="3.3337" y="7.1438" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="7.3025" y="2.8575" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="7.3025" y="2.8575" size="1.27" layer="27" ratio="10" display="off"/>
 </element>
 <element name="C7" library="rcl" package="E2-5" value="1µ" x="17.4626" y="9.3663" smashed="yes">
 <attribute name="NAME" x="13.1763" y="7.6836" size="0.8128" layer="25" ratio="10"/>

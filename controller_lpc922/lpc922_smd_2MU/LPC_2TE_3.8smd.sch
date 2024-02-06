@@ -17109,7 +17109,7 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R1206" value="5k6"/>
 <part name="Q4" library="crystal" deviceset="ASF*" device="" technology="L1"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="IC3" library="v-reg" deviceset="79LXX" device=""/>
+<part name="IC3" library="v-reg" deviceset="79LXX" device="" value="MCP1702-3302"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E2-5" value="1µ"/>
 <part name="Q2" library="transistor-npn" deviceset="BC847*" device="SMD" technology="C" value="BC847C"/>
 <part name="Q1" library="transistor-pnp" deviceset="BC856*" device="SMD" technology="B" value="BC856"/>
@@ -17364,8 +17364,8 @@ Source: http://www.abracon.com/Oscillators/asf1-L-L1.pdf</description>
 <attribute name="VALUE" x="132.08" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="A" x="134.62" y="152.4" smashed="yes" rot="MR180">
-<attribute name="NAME" x="137.16" y="143.51" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="137.16" y="146.05" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="137.16" y="146.05" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="119.38" y="158.75" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="C7" gate="G$1" x="144.78" y="147.32" smashed="yes">
 <attribute name="NAME" x="145.923" y="147.8026" size="1.778" layer="95"/>
