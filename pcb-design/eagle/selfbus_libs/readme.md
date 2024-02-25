@@ -1,20 +1,11 @@
-<img align="left" src="https://selfbus.org/wiki/images/icons/exclamation-triangle.svg" height="80px" width="80px" />
-<h2>Vorsicht!</h2>
-Dieses Teilprojekt wurde aus dem alten hardware-incubation Repository übernommen. Viele dieser Projekte sind nicht ausgereift!
-
-Um verschiedene Probleme in der Synchronisation der beiden Repositorys in Zukunft zu vermeiden, wurde aber auch dieser Ordner / dieses Stück Hardware in das eine "Hardware" Repository übernommen.
-
-Du hast Ideen, wie man es weiterentwickeln / fertigstellen könnte? Lass es uns wissen und werde Teil unserer Community!
-<br />--> https://selfbus.org
-<br />--> https://selfbus.org/forum
-<br />--> https://selfbus.org/chat 
+<h2>Selfbus Eagle-Bibliotheken</h2>
+Eagle war und ist bis heute (2024) das bei Selfbus eingesetzte Tool zur Platinen-Entwurf. 
+Im Prinzip ist jeder, der bei Selfbus mitentwickelt, frei seine eigenen Bibliotheken zu nutzen. 
+Um aber die Vielfalt der verschiedenen Bauteile nicht zu groß werden zu lassen werden die wichtigsten und am häufigsten genutzten Bauteile hier in "Selfbus-Librarys" zusammengetragen und bereitgestellt. Das hilft beim Bauteile beschaffen, aber auch beim entwicklen, da man sich meist nicht selbst auf die Suche nach Footprints, 3D-Modellen etc. machen muss.  
 
 <hr>
 
-<img align="left" src="https://selfbus.org/wiki/images/icons/exclamation-triangle.svg" height="80px" width="80px" />
-<h2>Attention!</h2>
-This sub-project was taken from the old hardware-incubation repository. Many of these projects are not mature!
-In order to avoid various problems in the synchronization of the two repositories in the future, this folder / this piece of hardware was also merged to the one "hardware" repository.
-
-Do you have ideas on how to further develop / finish it? Let us know and become part of our community!
-
+<h2>Selfbus Eagle Libraries</h2>
+Eagle was and still is (2024) the tool used at Selfbus for PCB design. 
+In principle, everyone who develops at Selfbus is free to use their own libraries. 
+However, to prevent the variety of different components from becoming too large, the most important and most frequently used components are compiled and made available here in "Selfbus libraries". This helps when sourcing components, but also when developing, as you don't usually have to search for footprints, 3D models etc. yourself.  
