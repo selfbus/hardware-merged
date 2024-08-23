@@ -171,12 +171,12 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXlnbXgyNDY1Mw" projecturn="a.YnVzaW5lc3M6bXlnbXgyNDY1MyMyMDIyMDIwNzQ5NDU2MDA1Ng" f3durn="urn:adsk.wipprod:dm.lineage:fgQwSlZ8T4ORGDp7_vYqsA" pcbguid="" lastpulledtime="2023-11-04T23:52:57Z" lastsyncedchangeguid="" latestrevisionid="4746a80a-d13d-4bf6-a6bc-b2b7e7028f96" lastsyncedrevisionid="4746a80a-d13d-4bf6-a6bc-b2b7e7028f96" lastboardhashguid="9b3ca18e-fe5d-9a15-0f2f-216f2cda1106" lastpushedtime="2023-11-30T22:23:22Z" linktopcb3d="false"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXlnbXgyNDY1Mw" projecturn="a.YnVzaW5lc3M6bXlnbXgyNDY1MyMyMDIyMDIwNzQ5NDU2MDA1Ng" f3durn="urn:adsk.wipprod:dm.lineage:fgQwSlZ8T4ORGDp7_vYqsA" pcbguid="" lastpulledtime="2023-11-04T23:52:57Z" lastsyncedchangeguid="" latestrevisionid="4746a80a-d13d-4bf6-a6bc-b2b7e7028f96" lastsyncedrevisionid="4746a80a-d13d-4bf6-a6bc-b2b7e7028f96" lastboardhashguid="9b3ca18e-fe5d-9a15-0f2f-216f2cda1106" lastpushedtime="2023-11-30T22:23:22Z" linktopcb3d="true"/>
 <plain>
 <text x="26.1" y="14.1" size="0.8128" layer="51" rot="R90">www.selfbus.org
 IO module
 16x fused 
-v1.x.x</text>
+v1.0.0</text>
 <text x="4.3" y="7.4" size="1.016" layer="51">3V3
 GND</text>
 <rectangle x1="2.9" y1="7.4" x2="4" y2="8.4" layer="51"/>
