@@ -23714,12 +23714,12 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="U2" library="Stefan_selfbus" deviceset="BD9G101G" device="BD9G101G-SOT23-6MOD" value="BD9G101"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="L4532P" package3d_urn="urn:adsk.eagle:package:23484/1" value="4.7uH"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7uF 50V"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF 10V"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF 10V"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="15nF"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k6"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="470R"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470n"/>
-<part name="D9" library="diode" deviceset="DIODE-" device="SOD123" value="RB060M-60(*)"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="470nF"/>
+<part name="D100" library="diode" deviceset="DIODE-" device="SOD123" value="RB060M-60(*)"/>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
@@ -23804,11 +23804,13 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="D16" library="Diode_for_Selfbus-Projects" deviceset="DIODE-ZENER" device="SOD-123" package3d_urn="urn:adsk.eagle:package:40015434/2" value="7V5"/>
 <part name="D15" library="Diode_for_Selfbus-Projects" deviceset="DIODE-ZENER" device="SOD-123" package3d_urn="urn:adsk.eagle:package:40015434/2" value="DDZ9685"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R2512" package3d_urn="urn:adsk.eagle:package:23545/2" value="24R  2512 1.0W"/>
-<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="47uF 10V"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47uF 10V"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24071,7 +24073,7 @@ hocheffiziente/extra helle LEDs</text>
 </instance>
 <instance part="C6" gate="G$1" x="200.66" y="226.06" smashed="yes">
 <attribute name="NAME" x="202.184" y="226.441" size="1.778" layer="95"/>
-<attribute name="VALUE" x="206.629" y="211.074" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="201.549" y="190.754" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C1" gate="G$1" x="147.32" y="233.68" smashed="yes" rot="R270">
 <attribute name="NAME" x="143.764" y="228.981" size="1.778" layer="95"/>
@@ -24089,7 +24091,7 @@ hocheffiziente/extra helle LEDs</text>
 <attribute name="NAME" x="181.356" y="231.521" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="181.356" y="226.441" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D9" gate="G$1" x="160.02" y="223.52" smashed="yes" rot="R90">
+<instance part="D100" gate="G$1" x="160.02" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="159.5374" y="226.06" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="162.3314" y="226.06" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -24376,11 +24378,11 @@ hocheffiziente/extra helle LEDs</text>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="C7" gate="G$1" x="215.9" y="226.06" smashed="yes">
-<attribute name="NAME" x="217.043" y="226.5426" size="1.778" layer="95"/>
+<instance part="C7" gate="G$1" x="226.06" y="226.06" smashed="yes">
+<attribute name="NAME" x="227.203" y="226.5426" size="1.778" layer="95"/>
 </instance>
-<instance part="GND10" gate="1" x="215.9" y="208.28" smashed="yes">
-<attribute name="VALUE" x="213.36" y="205.74" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="226.06" y="208.28" smashed="yes">
+<attribute name="VALUE" x="223.52" y="205.74" size="1.778" layer="96"/>
 </instance>
 <instance part="D16" gate="G$1" x="60.96" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="59.055" y="125.222" size="1.778" layer="95" rot="R90"/>
@@ -24396,7 +24398,7 @@ hocheffiziente/extra helle LEDs</text>
 </instance>
 <instance part="C20" gate="G$1" x="208.28" y="226.06" smashed="yes">
 <attribute name="NAME" x="209.804" y="226.441" size="1.778" layer="95"/>
-<attribute name="VALUE" x="214.249" y="211.074" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="209.169" y="190.754" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND4" gate="1" x="208.28" y="208.28" smashed="yes">
 <attribute name="VALUE" x="205.74" y="205.74" size="1.778" layer="96"/>
@@ -24412,6 +24414,13 @@ hocheffiziente/extra helle LEDs</text>
 <instance part="C24" gate="G$1" x="299.72" y="91.44" smashed="yes">
 <attribute name="NAME" x="301.244" y="91.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="301.244" y="86.741" size="1.778" layer="96"/>
+</instance>
+<instance part="C25" gate="G$1" x="215.9" y="226.06" smashed="yes">
+<attribute name="NAME" x="217.424" y="226.441" size="1.778" layer="95"/>
+<attribute name="VALUE" x="216.789" y="190.754" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND7" gate="1" x="215.9" y="208.28" smashed="yes">
+<attribute name="VALUE" x="213.36" y="205.74" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -24530,7 +24539,7 @@ hocheffiziente/extra helle LEDs</text>
 <wire x1="106.68" y1="68.58" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D9" gate="G$1" pin="A"/>
+<pinref part="D100" gate="G$1" pin="A"/>
 <wire x1="160.02" y1="220.98" x2="160.02" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
@@ -24656,12 +24665,17 @@ hocheffiziente/extra helle LEDs</text>
 <segment>
 <pinref part="C7" gate="G$1" pin="-"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="215.9" y1="220.98" x2="215.9" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="220.98" x2="226.06" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="220.98" x2="208.28" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="220.98" x2="215.9" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="EIB_IN" class="0">
@@ -25543,7 +25557,7 @@ hocheffiziente/extra helle LEDs</text>
 <wire x1="149.86" y1="233.68" x2="152.4" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="233.68" x2="152.4" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="D9" gate="G$1" pin="C"/>
+<pinref part="D100" gate="G$1" pin="C"/>
 <wire x1="160.02" y1="226.06" x2="160.02" y2="238.76" width="0.1524" layer="91"/>
 <junction x="152.4" y="238.76"/>
 <junction x="160.02" y="238.76"/>
@@ -25689,7 +25703,8 @@ hocheffiziente/extra helle LEDs</text>
 <wire x1="190.5" y1="238.76" x2="200.66" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="238.76" x2="208.28" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="238.76" x2="215.9" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="238.76" x2="223.52" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="238.76" x2="226.06" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="238.76" x2="223.52" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="238.76" x2="231.14" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="236.22" x2="190.5" y2="238.76" width="0.1524" layer="91"/>
 <junction x="190.5" y="238.76"/>
@@ -25700,11 +25715,14 @@ hocheffiziente/extra helle LEDs</text>
 <wire x1="200.66" y1="228.6" x2="200.66" y2="238.76" width="0.1524" layer="91"/>
 <junction x="200.66" y="238.76"/>
 <pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="215.9" y1="238.76" x2="215.9" y2="228.6" width="0.1524" layer="91"/>
-<junction x="215.9" y="238.76"/>
+<wire x1="226.06" y1="238.76" x2="226.06" y2="228.6" width="0.1524" layer="91"/>
+<junction x="226.06" y="238.76"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="228.6" x2="208.28" y2="238.76" width="0.1524" layer="91"/>
 <junction x="208.28" y="238.76"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="228.6" x2="215.9" y2="238.76" width="0.1524" layer="91"/>
+<junction x="215.9" y="238.76"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
