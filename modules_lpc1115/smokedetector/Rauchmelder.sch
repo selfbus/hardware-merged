@@ -27786,11 +27786,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="317.5" y="27.94" size="2.54" layer="97">www.selfbus.org</text>
 <text x="320.04" y="10.16" size="2.54" layer="97">Rauchmelder ARM</text>
 <text x="403.86" y="10.16" size="2.54" layer="97">3.9.1</text>
-<text x="167.64" y="134.62" size="1.778" layer="91">6 to RXD and P00</text>
-<text x="167.64" y="132.08" size="1.778" layer="91">7 to TXD and P01</text>
-<text x="167.64" y="129.54" size="1.778" layer="91">9 to P02</text>
-<text x="167.64" y="139.7" size="1.778" layer="91">1 to VCC</text>
-<text x="167.64" y="137.16" size="1.778" layer="91">3 to GND</text>
+<text x="182.88" y="190.5" size="1.778" layer="91">5 to RXD and P00</text>
+<text x="182.88" y="187.96" size="1.778" layer="91">7 to TXD and P01</text>
+<text x="182.88" y="185.42" size="1.778" layer="91">9 to P02</text>
+<text x="182.88" y="195.58" size="1.778" layer="91">1 to VCC</text>
+<text x="182.88" y="193.04" size="1.778" layer="91">3 to GND</text>
 <text x="157.48" y="20.32" size="1.778" layer="97">Considerations regarding capacitance 
 loss and impedance 
 
@@ -27873,7 +27873,7 @@ should be not a problem. </text>
 <attribute name="DRAWING_NAME" x="332.74" y="21.59" size="2.54" layer="94" font="vector"/>
 </instance>
 <instance part="JP1" gate="A" x="175.26" y="162.56" smashed="yes">
-<attribute name="NAME" x="171.45" y="175.895" size="1.778" layer="95"/>
+<attribute name="NAME" x="171.45" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="168.91" y="149.86" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="337.82" y="182.88" smashed="yes">
@@ -28188,9 +28188,9 @@ should be not a problem. </text>
 <instance part="P+3" gate="G$1" x="325.12" y="190.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="327.66" y="185.42" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="D11" gate="A" x="162.56" y="180.34" smashed="yes">
-<attribute name="NAME" x="157.48" y="180.3654" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="157.48" y="177.8" size="1.778" layer="96" rot="R180"/>
+<instance part="D11" gate="A" x="162.56" y="177.8" smashed="yes">
+<attribute name="NAME" x="157.48" y="177.8254" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="157.48" y="175.26" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D11" gate="B" x="200.66" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="205.74" y="165.1254" size="1.778" layer="95" rot="MR180"/>
@@ -28200,9 +28200,9 @@ should be not a problem. </text>
 <attribute name="NAME" x="188.976" y="152.4" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="193.04" y="152.4" size="1.27" layer="96" ratio="12" rot="R90" align="center"/>
 </instance>
-<instance part="D12" gate="G$1" x="193.04" y="180.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="195.834" y="182.245" size="1.778" layer="95"/>
-<attribute name="VALUE" x="195.834" y="179.451" size="1.778" layer="96"/>
+<instance part="D12" gate="G$1" x="193.04" y="177.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="195.834" y="179.705" size="1.778" layer="95"/>
+<attribute name="VALUE" x="195.834" y="176.911" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -28285,7 +28285,7 @@ should be not a problem. </text>
 <wire x1="190.5" y1="147.32" x2="195.58" y2="147.32" width="0.1524" layer="91"/>
 <junction x="195.58" y="147.32"/>
 <pinref part="D11" gate="A" pin="A"/>
-<wire x1="160.02" y1="172.72" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="170.18" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="167.64" x2="160.02" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="147.32" x2="190.5" y2="147.32" width="0.1524" layer="91"/>
 <junction x="190.5" y="147.32"/>
@@ -28565,7 +28565,7 @@ should be not a problem. </text>
 <wire x1="180.34" y1="170.18" x2="193.04" y2="170.18" width="0.1524" layer="91"/>
 <junction x="180.34" y="170.18"/>
 <pinref part="D12" gate="G$1" pin="C"/>
-<wire x1="193.04" y1="170.18" x2="193.04" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="170.18" x2="193.04" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWM" class="0">
@@ -28669,10 +28669,10 @@ should be not a problem. </text>
 <pinref part="JP1" gate="A" pin="5"/>
 <pinref part="JP1" gate="A" pin="6"/>
 <wire x1="167.64" y1="165.1" x2="172.72" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="165.1" x2="167.64" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="165.1" x2="167.64" y2="175.26" width="0.1524" layer="91"/>
 <junction x="167.64" y="165.1"/>
 <pinref part="D11" gate="A" pin="AC"/>
-<wire x1="167.64" y1="177.8" x2="162.56" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="175.26" x2="162.56" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -29023,19 +29023,19 @@ should be not a problem. </text>
 <wire x1="165.1" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="D11" gate="A" pin="C"/>
-<wire x1="160.02" y1="182.88" x2="160.02" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="185.42" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="185.42" x2="175.26" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="157.48" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="180.34" x2="160.02" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="182.88" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="157.48" x2="165.1" y2="182.88" width="0.1524" layer="91"/>
 <junction x="165.1" y="157.48"/>
-<junction x="165.1" y="185.42"/>
-<wire x1="175.26" y1="185.42" x2="193.04" y2="185.42" width="0.1524" layer="91"/>
+<junction x="165.1" y="182.88"/>
+<wire x1="175.26" y1="182.88" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="D12" gate="G$1" pin="A"/>
-<wire x1="193.04" y1="185.42" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="182.88" x2="193.04" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="D11" gate="B" pin="C"/>
-<wire x1="203.2" y1="167.64" x2="203.2" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="185.42" x2="193.04" y2="185.42" width="0.1524" layer="91"/>
-<junction x="193.04" y="185.42"/>
+<wire x1="203.2" y1="167.64" x2="203.2" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="182.88" x2="193.04" y2="182.88" width="0.1524" layer="91"/>
+<junction x="193.04" y="182.88"/>
 </segment>
 </net>
 <net name="PROG" class="0">
