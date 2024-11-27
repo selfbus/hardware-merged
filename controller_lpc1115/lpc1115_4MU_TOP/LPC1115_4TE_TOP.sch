@@ -24403,9 +24403,9 @@ hocheffiziente/extra helle LEDs</text>
 <instance part="GND4" gate="1" x="208.28" y="208.28" smashed="yes">
 <attribute name="VALUE" x="205.74" y="205.74" size="1.778" layer="96"/>
 </instance>
-<instance part="C21" gate="G$1" x="116.84" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="113.284" y="91.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="113.284" y="86.741" size="1.778" layer="96"/>
+<instance part="C21" gate="G$1" x="116.84" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="113.284" y="94.361" size="1.778" layer="95"/>
+<attribute name="VALUE" x="113.284" y="89.281" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="294.64" y="91.44" smashed="yes">
 <attribute name="NAME" x="296.164" y="91.821" size="1.778" layer="95"/>
@@ -24506,6 +24506,10 @@ hocheffiziente/extra helle LEDs</text>
 <pinref part="GND33" gate="1" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="68.58" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="88.9" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
+<junction x="129.54" y="68.58"/>
 </segment>
 <segment>
 <pinref part="P2" gate="A" pin="9"/>
@@ -24693,10 +24697,8 @@ hocheffiziente/extra helle LEDs</text>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="129.54" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 <junction x="106.68" y="83.82"/>
-<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="86.36" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
-<junction x="116.84" y="83.82"/>
+<label x="114.3" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EIB_OUT" class="0">
@@ -24780,15 +24782,13 @@ hocheffiziente/extra helle LEDs</text>
 <pinref part="D16" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="129.54" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
 <junction x="60.96" y="134.62"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="81.28" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="99.06" x2="76.2" y2="99.06" width="0.1524" layer="91"/>
-<junction x="78.74" y="81.28"/>
-<wire x1="76.2" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="99.06" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
-<junction x="55.88" y="134.62"/>
+</segment>
+<segment>
+<pinref part="P1" gate="1" pin="6"/>
+<wire x1="342.9" y1="111.76" x2="350.52" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="111.76" x2="365.76" y2="111.76" width="0.1524" layer="91"/>
+<label x="345.44" y="112.014" size="1.778" layer="95"/>
+<label x="365.76" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -24830,6 +24830,7 @@ hocheffiziente/extra helle LEDs</text>
 <pinref part="R20" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 <junction x="66.04" y="81.28"/>
+<label x="50.8" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -25651,7 +25652,7 @@ hocheffiziente/extra helle LEDs</text>
 <wire x1="106.68" y1="96.52" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="99.06" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="93.98" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="96.52" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
 <junction x="106.68" y="99.06"/>
 </segment>
@@ -25911,13 +25912,11 @@ hocheffiziente/extra helle LEDs</text>
 <label x="68.58" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$3" class="0">
 <segment>
-<pinref part="P1" gate="1" pin="6"/>
-<wire x1="342.9" y1="111.76" x2="353.06" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="111.76" x2="368.3" y2="111.76" width="0.1524" layer="91"/>
-<label x="345.44" y="112.014" size="1.778" layer="95"/>
-<label x="368.3" y="111.76" size="1.778" layer="95" xref="yes"/>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
