@@ -7972,6 +7972,22 @@ Dual bit, dual supply transceiver with 3-state output for bidirectional level tr
 <technology name="LVC"/>
 </technologies>
 </device>
+<device name="GW" package="SOT363">
+<connects>
+<connect gate="A" pin="IN" pad="1"/>
+<connect gate="A" pin="OUT" pad="6"/>
+<connect gate="B" pin="IN" pad="3"/>
+<connect gate="B" pin="OUT" pad="4"/>
+<connect gate="P" pin="GND" pad="2"/>
+<connect gate="P" pin="VCC" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29757/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -9054,10 +9070,9 @@ by exp-lbrs.ulp</description>
 <attribute name="PART_MFR" value="NXP"/>
 </part>
 <part name="TVS3" library="MyESD" deviceset="PESD5V0L5" device="UY" package3d_urn="urn:adsk.eagle:package:29757/2"/>
-<part name="IC2" library="MyIC-Logic" deviceset="74*2G07" device="GV" package3d_urn="urn:adsk.eagle:package:16490/2" technology="LVC">
-<attribute name="LCSC#" value="C548568"/>
-<attribute name="MOUSER#" value="771-LVC2G07GV125"/>
-<attribute name="PART#" value="74LVC2G07GV,125"/>
+<part name="IC2" library="MyIC-Logic" deviceset="74*2G07" device="GW" package3d_urn="urn:adsk.eagle:package:29757/2" value="742G07GW">
+<attribute name="LCSC#" value="C24478"/>
+<attribute name="PART#" value="74LVC2G07GW,125"/>
 <attribute name="PART_MFR" value="NXP"/>
 </part>
 <part name="R8" library="MyRCL" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:18594703/1" value="10"/>
@@ -9136,7 +9151,7 @@ by exp-lbrs.ulp</description>
 <sheet>
 <plain>
 <text x="175.26" y="12.7" size="5.08" layer="94">SelfBus DAP Debugger</text>
-<text x="252.476" y="11.43" size="3.81" layer="94">V1.1</text>
+<text x="252.476" y="11.43" size="3.81" layer="94">V1.2</text>
 <text x="155.194" y="116.84" size="1.778" layer="97" align="bottom-center">DAP Debug</text>
 <text x="149.86" y="109.22" size="1.778" layer="94" align="bottom-center">Only mounted during development</text>
 <wire x1="124.46" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="94" style="shortdash"/>
@@ -9490,7 +9505,6 @@ TXD
 <attribute name="NAME" x="137.16" y="66.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.54" y="57.912" size="1.778" layer="96"/>
 <attribute name="PART#" x="137.16" y="63.5" size="1.778" layer="96" display="off"/>
-<attribute name="MOUSER#" x="137.16" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="LCSC#" x="137.16" y="63.5" size="1.778" layer="96" display="off"/>
 <attribute name="PART_MFR" x="137.16" y="63.5" size="1.778" layer="96" display="off"/>
 </instance>

@@ -7,3 +7,4 @@ Forum discussions: [https://selfbus.org/forum/app.php/tag/SBDAP](https://selfbus
 |-------|-------------------------------------|
 |v1.0.0 |first release version                |
 |v1.1.0 |USB-C connection instead of Micro-USB|
+|v1.2.0 |IC2 package switched to SOT363/SC70  |
